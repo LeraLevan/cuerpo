@@ -260,7 +260,7 @@ cert: {
   payUrl: '',                               // появится онлайн-касса — впишите сюда
   wa:     '79278923013',                    // WhatsApp: текст подставляется сам
   chat:   'https://t.me/cuerpo_massage',    // Telegram: текст через буфер
-  max:    ''                                // ссылка-приглашение в MAX
+  max:    'https://max.ru/u/f9LHodD0cOK8Msyn-Czj1I8qVaWM0I6-1uzlFpVZwKHIkWuRddrlTjynzgU'  // личный чат салона в MAX
 }
 ```
 

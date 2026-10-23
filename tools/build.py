@@ -811,7 +811,7 @@ def build_home_section():
 SOCIALS = [
     'https://vk.ru/cuerpo_massage',
     'https://t.me/cuerpo_massage',
-    'https://max.ru/join/cS6n7juwoTfDZ0bwwvBSRJ9FdDHrQW_8NSufPw8zTFs',
+    'https://max.ru/u/f9LHodD0cOK8Msyn-Czj1I8qVaWM0I6-1uzlFpVZwKHIkWuRddrlTjynzgU',
     'https://yandex.ru/maps/org/cuerpo/8688668194/',
     'https://n908364.yclients.com/',
 ]
