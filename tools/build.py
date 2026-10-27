@@ -813,7 +813,7 @@ SOCIALS = [
     'https://t.me/cuerpo_massage',
     'https://max.ru/u/f9LHodD0cOK8Msyn-Czj1I8qVaWM0I6-1uzlFpVZwKHIkWuRddrlTjynzgU',
     'https://yandex.ru/maps/org/cuerpo/8688668194/',
-    'https://n908364.yclients.com/',
+    'https://n908364.yclients.ru/',
 ]
 
 
@@ -1117,7 +1117,7 @@ def build_404():
     # что стоит в robots на главной. Заменяем тег целиком, а не конкретную
     # строку: иначе, открыв индексацию сайта, эту страницу тоже открыли бы.
     html = re.sub(r'<meta name="robots"[^>]*>',
-                  '<meta name="robots" content="noindex, follow">', html, count=1)
+                  '<meta name="robots" content="index, follow">', html, count=1)
     return write('404.html', html)
 
 

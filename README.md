@@ -214,7 +214,7 @@ cookie и IP российская практика относит к персо�
 **Ссылка живёт в одном месте** — в начале `assets/app.js`, объект `CONFIG`:
 
 ```js
-booking: 'https://n908364.yclients.com/company/845911/personal/menu?o=',
+booking: 'https://n908364.yclients.ru/company/845911/personal/menu?o=',
 ```
 
 Скрипт сам проставляет её всем элементам с атрибутом `data-book` и добавляет
@@ -227,10 +227,10 @@ booking: 'https://n908364.yclients.com/company/845911/personal/menu?o=',
 
 ```js
 bookingByService: {
-  'Классический массаж спины': 'https://n908364.yclients.com/company/845911/personal/menu?o=s12345',
+  'Классический массаж спины': 'https://n908364.yclients.ru/company/845911/personal/menu?o=s12345',
 },
 bookingByMaster: {
-  'Татьяна': 'https://n908364.yclients.com/company/845911/personal/menu?o=m678',
+  'Татьяна': 'https://n908364.yclients.ru/company/845911/personal/menu?o=m678',
 },
 ```
 
@@ -321,7 +321,7 @@ cert: {
 нет, отправит файлы и включит Pages.
 
 > **Демо закрыто от поисковиков.** В `index.html` стоит
-> `<meta name="robots" content="noindex, follow">` — чтобы демо-версия с
+> `<meta name="robots" content="index, follow">` — чтобы демо-версия с
 > реальным названием и телефоном салона не конкурировала в выдаче с будущим
 > настоящим сайтом Cuerpo. По прямой ссылке сайт открывается как обычно.
 > Перед сдачей реальному клиенту: поменять `noindex` на `index` в `index.html`

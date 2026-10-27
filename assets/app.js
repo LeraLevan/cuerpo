@@ -11,12 +11,12 @@ var CONFIG = {
   /* ОНЛАЙН-ЗАПИСЬ — единственное место, где живёт ссылка на YClients.
      Все кнопки «Записаться» на сайте берут адрес отсюда: в разметке ссылка
      не продублирована ни разу, поэтому поменять её можно одной правкой. */
-  booking: 'https://n908364.yclients.com/company/845911/personal/menu?o=',
+  booking: 'https://n908364.yclients.ru/company/845911/personal/menu?o=',
 
   /* Персональные ссылки на конкретные услуги. Пока пусто — все кнопки ведут
      на общий каталог записи выше. Когда появятся прямые ссылки YClients,
      допишите строки сюда, ключ — имя услуги из tools/data.py (data-service):
-        'Классический массаж спины': 'https://n908364.yclients.com/company/845911/personal/menu?o=s12345',
+        'Классический массаж спины': 'https://n908364.yclients.ru/company/845911/personal/menu?o=s12345',
      Разметку править не нужно: скрипт подставит адрес сам. */
   bookingByService: {},
 
@@ -115,7 +115,7 @@ document.addEventListener('click', function(e){
   if (!a) return;
   var href = a.getAttribute('href') || '';
   if (href.indexOf('tel:') === 0) goal('call');
-  else if (href.indexOf('yclients.com') > -1) goal('open_yclients');
+  else if (href.indexOf('yclients.ru') > -1) goal('open_yclients');
   else if (/t\.me|vk\.me|vk\.com|vk\.ru|max\.ru/.test(href)) goal('messenger');
 }, true);
 
